@@ -35,4 +35,6 @@ class BasePage(object):
         except TimeoutException:
             # 如果超时没找到，说明没有这个错误提示，返回 None 或空字符串
             return None
-
+    #页面滚动到底部
+    def scroll_to_bottom(self):
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")

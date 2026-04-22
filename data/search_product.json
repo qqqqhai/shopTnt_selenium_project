@@ -1,0 +1,6 @@
+[
+  {"search_name": "aaa","search_product": "aaa","expect": false},
+  {"search_name": "bbb","search_product": "bbb","expect": false},
+  {"search_name": " ","search_product": " ","expect": true},
+  {"search_name": "111","search_product": "111","expect": true}
+]
