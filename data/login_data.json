@@ -1,0 +1,6 @@
+[
+  {"user_name":"admin","password":"111111","img_pwd":"1111","expect":true},
+  {"user_name":"admins","password":"111111","img_pwd":"1111","expect":false},
+  {"user_name":"admin","password":"1111111","img_pwd":"1111","expect":false},
+  {"user_name":"admin","password":"111111","img_pwd":"1112","expect":false}
+]

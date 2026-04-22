@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_001_add_vip.py:16 注册结果:用户名已被占用

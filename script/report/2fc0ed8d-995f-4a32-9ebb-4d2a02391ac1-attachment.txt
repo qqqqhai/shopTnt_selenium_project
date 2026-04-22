@@ -1,0 +1,1 @@
+INFO     root:test_001_add_vip.py:16 注册结果:该手机号已经被占用

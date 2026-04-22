@@ -1,0 +1,1 @@
+INFO     root:test_001_add_vip.py:20 捕获到的错误信息: 长度在 4 到 20 个字符

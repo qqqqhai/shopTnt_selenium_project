@@ -1,0 +1,14 @@
+2026-04-21 21:05:01,277 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: None
+2026-04-21 21:05:37,668 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 长度在 4 到 20 个字符
+2026-04-21 21:06:13,477 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 两次输入不一致！
+2026-04-21 21:06:49,494 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 手机号码格式有误！
+2026-04-21 21:10:04,858 INFO [test_001_login.pytest_01_login_success:17] - 登录结果:True
+2026-04-21 21:10:18,253 INFO [test_001_login.pytest_01_login_success:21] - 登录结果：登陆失败  原因：管理员账号密码错误
+2026-04-21 21:10:29,912 INFO [test_001_login.pytest_01_login_success:21] - 登录结果：登陆失败  原因：管理员账号密码错误2次,超过5次将被锁定
+2026-04-21 21:10:41,385 INFO [test_001_login.pytest_01_login_success:21] - 登录结果：登陆失败  原因：图片验证码不正确
+2026-04-21 21:25:23,120 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: None
+2026-04-21 21:25:41,265 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 长度在 4 到 20 个字符
+2026-04-21 21:28:41,761 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: None
+2026-04-21 21:29:06,887 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 长度在 4 到 20 个字符
+2026-04-21 21:29:33,123 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 两次输入不一致！
+2026-04-21 21:29:59,189 INFO [test_001_add_vip.pytest_01_login_success:16] - 捕获到的错误信息: 手机号码格式有误！

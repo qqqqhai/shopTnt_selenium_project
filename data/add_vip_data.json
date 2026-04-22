@@ -1,0 +1,8 @@
+
+
+[
+  {"vip_name":"小明科技","vip_en_pwd":"111111","vip_pwd":"111111","vip_phone":"19071000015","sex":"男","expect":true,"a":"0"},
+  {"vip_name":"123","vip_en_pwd":"111111","vip_pwd":"111111","vip_phone":"19000000005","sex":"女","expect":false,"a":"0"},
+  {"vip_name":"a123","vip_en_pwd":"1111111","vip_pwd":"111111","vip_phone":"19000000005","sex":"女","expect":false,"a":"3"},
+  {"vip_name":"小明123","vip_en_pwd":"111111","vip_pwd":"111111","vip_phone":"1900000000","sex":"男","expect":false,"a":"4"}
+]
