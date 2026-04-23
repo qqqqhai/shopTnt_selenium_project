@@ -2,7 +2,8 @@ import pytest
 from page.page_add_vip import PageAddVip
 from tools import  read_json
 from script import log
-from base.conftest import run_add_vip,run_login,run_every_test
+from script.conftest import run_add_vip
+
 
 class TestLogin:
     @pytest.mark.parametrize("vip_name,vip_en_pwd,vip_pwd,vip_phone,sex,expect,a",read_json("add_vip_data.json"))

@@ -4,7 +4,7 @@ from config import BASE_URL_BUY
 from page.page_product_search import PageCustomBuy
 from script import log
 from tools import read_json
-from base.conftest import run_login_test
+from script.conftest import run_login_test
 
 class TestLogin:
 # "pho_num": "190000000000", "img_email": "12345","email_input": "1111","expect": true

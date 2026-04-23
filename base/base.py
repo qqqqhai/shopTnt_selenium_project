@@ -1,4 +1,5 @@
 from selenium.common import TimeoutException
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from tools import DriverTools, GetLog
 from selenium.webdriver.common.by import By
@@ -6,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class BasePage(object):
     #打开网址
-    def __init__(self,driver,timeout=3):
+    def __init__(self,driver,timeout=5):
         self.driver = driver
         self.default_timeout=timeout
     def get_url(self):
@@ -38,3 +39,29 @@ class BasePage(object):
     #页面滚动到底部
     def scroll_to_bottom(self):
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    #切换新窗口
+    def switch_to_latest_window(self, timeout=10):
+        """切换到最新打开的窗口 (兼容 Selenium 3/4)"""
+        # 1. 记录当前窗口句柄
+        original_window = self.driver.current_window_handle
+        # 2. 记录当前的窗口数量
+        original_count = len(self.driver.window_handles)
+
+        # 3. 等待：直到窗口数量大于原来的数量
+        WebDriverWait(self.driver, timeout).until(
+            lambda driver: len(driver.window_handles) > original_count
+        )
+
+        # 4. 切换到新窗口
+        handles = self.driver.window_handles
+        for handle in handles:
+            if handle != original_window:
+                self.driver.switch_to.window(handle)
+                return handle
+
+    #鼠标悬停
+    def base_hover(self, loc):
+        # 1. 获取元素 (直接复用你写好的 fd_element，自带显式等待，防止元素未加载)
+        element = self.fd_element(loc)
+        # 2. 执行悬停动作
+        ActionChains(self.driver).move_to_element(element).perform()

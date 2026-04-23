@@ -1,1 +1,0 @@
-[32mINFO    [0m root:test_001_login.py:18 登录结果:True
