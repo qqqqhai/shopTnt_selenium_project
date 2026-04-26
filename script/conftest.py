@@ -46,8 +46,8 @@ def run_add_product(run_every_test):
     time.sleep(1)
     return driver  # 返回登录完成界面
 @pytest.fixture(scope="function")
-def buy_product(run_add_product):
+def buy_product(run_add_product,search):
     run_add_product.get(BASE_URL_BUY)#在登录完成界面打开登录完成网址
-    PageCustomBuy(run_add_product).search_product("111")
-    time.sleep(1)
+    PageCustomBuy(run_add_product).search_product(search)
+    time.sleep(3)
     yield run_add_product

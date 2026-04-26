@@ -1,0 +1,6 @@
+[
+  {"search": "111", "buy_select": "select1","time": "any","expect": true},
+  {"search": "111", "buy_select": "select2","time": "any","expect": true},
+  {"search": "111", "buy_select": "select1","time": "work","expect": true},
+  {"search": "111", "buy_select": "select2","time": "free","expect": true}
+]

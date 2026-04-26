@@ -7,19 +7,18 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class BasePage(object):
     #打开网址
-    def __init__(self,driver,timeout=5):
+    def __init__(self,driver,timeout=3):
         self.driver = driver
         self.default_timeout=timeout
     def get_url(self):
         self.driver.get("https://manager-bbc.shoptnt.cn")
     #元素显示等待
     def fd_element(self, loc):
-        #try:
+        try:
             return  WebDriverWait(self.driver, self.default_timeout, 1).until(EC.visibility_of_element_located(loc))
-        #except Exception as e:
-            # GetLog.get_log().error(f"元素定位超时，定位信息:{loc},详细错误:{e}")
-            #raise
-
+        except Exception as e:
+            GetLog.get_log().error(f"元素定位超时，定位信息:{loc},详细错误:{e}")
+            raise
     #点击
     def base_click(self,loc):
         self.fd_element(loc).click()
@@ -40,25 +39,31 @@ class BasePage(object):
     def scroll_to_bottom(self):
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     #切换新窗口
-    def switch_to_latest_window(self, timeout=10):
-        """切换到最新打开的窗口 (兼容 Selenium 3/4)"""
-        # 1. 记录当前窗口句柄
-        original_window = self.driver.current_window_handle
-        # 2. 记录当前的窗口数量
-        original_count = len(self.driver.window_handles)
+    def switch_to_latest_window(self, original_handle, timeout: int = 10):
+        try:
+            # 1. 显式等待：等待新窗口出现（句柄列表中出现不同于原句柄的新句柄）
+            WebDriverWait(self.driver, timeout).until(
+                lambda d: any(handle != original_handle for handle in d.window_handles)
+            )
+            # 2. 获取所有窗口句柄，筛选出最新的那个
+            all_handles = self.driver.window_handles
+            # 取出所有不等于原句柄的句柄，取最后一个（最新打开的）
+            new_handles = [handle for handle in all_handles if handle != original_handle]
+            latest_handle = new_handles[-1]
 
-        # 3. 等待：直到窗口数量大于原来的数量
-        WebDriverWait(self.driver, timeout).until(
-            lambda driver: len(driver.window_handles) > original_count
-        )
+            # 3. 执行切换
+            self.driver.switch_to.window(latest_handle)
 
-        # 4. 切换到新窗口
-        handles = self.driver.window_handles
-        for handle in handles:
-            if handle != original_window:
-                self.driver.switch_to.window(handle)
-                return handle
+            # 4. 可选：等待新页面加载完成（比等待 title 更靠谱）
+            WebDriverWait(self.driver, timeout).until(
+                lambda d: d.execute_script("return document.readyState") == "complete"
+            )
 
+            print(f"✅ 切换窗口成功！原句柄: {original_handle[-6:]}... -> 新句柄: {latest_handle[-6:]}...")
+
+        except TimeoutException:
+            print(f"❌ 切换窗口超时！原句柄: {original_handle}, 当前所有句柄: {self.driver.window_handles}")
+            raise  # 重新抛出异常，让 pytest 标记用例失败
     #鼠标悬停
     def base_hover(self, loc):
         # 1. 获取元素 (直接复用你写好的 fd_element，自带显式等待，防止元素未加载)
