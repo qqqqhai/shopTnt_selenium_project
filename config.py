@@ -6,6 +6,8 @@ PATH=os.path.dirname(__file__)
 BASE_URL ="https://manager-bbc.shoptnt.cn"
 BASE_URL1="https://manager-bbc.shoptnt.cn/dashboard"
 BASE_URL_BUY='https://shop-bbc.shoptnt.cn/'
+
+BASE_URL_SELLER='https://seller-bbc.shoptnt.cn'
 fk=Faker(locale="zh_CN")
 
 NAME=fk.name()
