@@ -1,0 +1,301 @@
+{
+	"id": "2f1dbd29-470a-4388-98a7-0f508a11b7ca",
+	"name": "My Collection",
+	"timestamp": "2026-05-09T10:34:25.201Z",
+	"collection_id": "54340799-27575198-f374-4e06-be05-f29a6430de9e",
+	"folder_id": "54340799-af6a76fc-7d0e-43d3-bfcf-61b5f5ae8ff7",
+	"environment_id": "54340799-321cee8a-c0f8-41be-8c54-0598ba8bdb95",
+	"totalPass": 9,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-05-09T10:34:21.626Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "145c5156-1846-4d99-997e-2bd768137dc8",
+			"name": "web3_login01_001",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=aaaa2&password=e10adc3949ba59abbe56e057f20f883e&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "14016bae-e932-4a0b-ab32-9bbabcf5b9ed",
+			"name": "web3_login01_005",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=asdfg&password=e10adc3949ba59abbe56e057f20f883e&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 184,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过，用户名不存在": true
+			},
+			"testPassFailCounts": {
+				"测试通过，用户名不存在": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				184
+			],
+			"allTests": [
+				{
+					"测试通过，用户名不存在": true
+				}
+			]
+		},
+		{
+			"id": "909d4c20-0486-4642-98cb-3c8acad241ae",
+			"name": "web3_login01_006",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=1111&password=e10adc3949ba59abbe56e057f20f883e&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 170,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				170
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "f0d71b13-d2b8-4d26-9103-b6a67ca3a0a4",
+			"name": "web3_login01_007",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=1234567890123456789011&password=e10adc3949ba59abbe56e057f20f883e&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 180,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "a8e8ac56-c62e-4e22-a73f-163259f95117",
+			"name": "web3_login01_008",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=11&password=e10adc3949ba59abbe56e057f20f883e&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 168,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "d2ee2778-97f6-4a43-98f8-53c9f2bc9017",
+			"name": "web3_login01_011",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=aaaa2&password=f480e276d1daa894ae949227b433002b&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 96,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "201d0d24-171a-4500-979b-895fe7e131ec",
+			"name": "web3_login01_012",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=aaaa2&password=202cb962ac59075b964b07152d234b70&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 126,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "8d22fe37-bf14-48dc-bab3-eaf39c1f29be",
+			"name": "web3_login01_013",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=aaaa2&password=8efe8dcdb6934dab70bc11bd525fae68&captcha=1111&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 93,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		},
+		{
+			"id": "17d46730-1cca-441e-a844-99c9c0b9e82d",
+			"name": "web3_login01_015",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/passport/login?scene=LOGIN&username=aaaa2&password=8efe8dcdb6934dab70bc11bd525fae68&captcha=aaa&uuid=e1bf1f40-3a36-11f1-a625-51aaa7a197d8",
+			"time": 55,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"测试通过": true
+			},
+			"testPassFailCounts": {
+				"测试通过": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				55
+			],
+			"allTests": [
+				{
+					"测试通过": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1361,
+	"collection": {
+		"requests": [
+			{
+				"id": "145c5156-1846-4d99-997e-2bd768137dc8",
+				"method": "POST"
+			},
+			{
+				"id": "14016bae-e932-4a0b-ab32-9bbabcf5b9ed",
+				"method": "POST"
+			},
+			{
+				"id": "909d4c20-0486-4642-98cb-3c8acad241ae",
+				"method": "POST"
+			},
+			{
+				"id": "f0d71b13-d2b8-4d26-9103-b6a67ca3a0a4",
+				"method": "POST"
+			},
+			{
+				"id": "a8e8ac56-c62e-4e22-a73f-163259f95117",
+				"method": "POST"
+			},
+			{
+				"id": "d2ee2778-97f6-4a43-98f8-53c9f2bc9017",
+				"method": "POST"
+			},
+			{
+				"id": "201d0d24-171a-4500-979b-895fe7e131ec",
+				"method": "POST"
+			},
+			{
+				"id": "8d22fe37-bf14-48dc-bab3-eaf39c1f29be",
+				"method": "POST"
+			},
+			{
+				"id": "17d46730-1cca-441e-a844-99c9c0b9e82d",
+				"method": "POST"
+			}
+		]
+	}
+}

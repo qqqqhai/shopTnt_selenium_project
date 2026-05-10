@@ -1,0 +1,10 @@
+[
+{"scene":"LOGIN","username":"asdfg","password":"e10adc3949ba59abbe56e057f20f883e","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "账号密码错误！"},
+{"scene":"LOGIN","username":"1111","password":"e10adc3949ba59abbe56e057f20f883e","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "账号密码错误！"},
+{"scene":"LOGIN","username":"1234567890123456789011","password":"e10adc3949ba59abbe56e057f20f883e","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "账号密码错误！"},
+{"scene":"LOGIN","username":"11","password":"e10adc3949ba59abbe56e057f20f883e","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "账号密码错误！"},
+{"scene":"LOGIN","username":"aaaa2","password":"f480e276d1daa894ae949227b433002b","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "密码错误"},
+{"scene":"LOGIN","username":"aaaa2","password":"202cb962ac59075b964b07152d234b70","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "密码错误"},
+{"scene":"LOGIN","username":"aaaa2","password":"8efe8dcdb6934dab70bc11bd525fae68","captcha":"1111","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "密码错误"},
+{"scene":"LOGIN","username":"aaaa2","password":"8efe8dcdb6934dab70bc11bd525fae68","captcha":"aaa","uuid":"e1bf1f40-3a36-11f1-a625-51aaa7a197d8","message": "图片验证码不正确"}
+]

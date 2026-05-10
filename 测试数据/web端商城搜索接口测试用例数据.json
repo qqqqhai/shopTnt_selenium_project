@@ -1,0 +1,19 @@
+[
+{"keyword":"%E6%89%8B%E6%9C%BA","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E6%89%8B","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E5%B0%8F%E7%B1%B3%20%E6%89%8B%E6%9C%BA","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":" ","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":null,"code":400,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"dhfguasdgbjhdavuagfuhdvhcdhgousdahbhvdusfcoyaduhcbdhcguaydhbhvdhagaulcbhvsdhakvhkgcudbvhdkvgushcbdvusdgcksjvchdkfukhcudhcbdlchdsagcuashckbdskvfdsualcusgdsaguakbchsdjkclvuigdkeyworddhfguasdgbjhdavuagfuhdvhcdhgousdahbhvdusfcoyaduhcbdhcguaydhbhvdhagaulcbhvsdhakvhkgcudbvhdkvgushcbdvusdgcksjvchdkfukhcudhcbdlchdsagcuashckbdskvfdsualcusgdsaguakbchsdjkclvuigdkeyworddhfguasdgbjhdavuagfuhdvhcdhgousdahbhvdusfcoyaduhcbdhcguaydhbhvdhagaulcbhvsdhakvhkgcudbvhdkvgushcbdvusdgcksjvchdkfukhcudhcbdlchdsagcuashckbdskvfdsualcusgdsaguakbchsdjkclvuigdkeyworddhfguasdgbjhdavuagfuhdvhcdhgousdahbhvdusfcoyaduhcbdhcguaydhbhvdhagaulcbhvsdhakvhkgcudbvhdkvgushcbvusdgcksjvchdkfukhcudhcbdlchdsagcuashckbdskvfdsualcusgdsaguakbchsdjkclvuigd","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%21%40%23%24%25%5E%26%2A%28%29","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%20%27%20OR%20%271%27%3D%271%20","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%3Cscript%3Ealert%281%29%3C%2Fscript%3E","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":200,"sort":"price_asc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":200,"sort":"buynum_asc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":200,"sort":"grade_asc","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":400,"sort":"invalid","category":null,"price_min":null,"price_max":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":200,"price_min":"700","price_max":"900","sort":"def_desc","category":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":400,"price_min":"900","price_max":"700","sort":"def_desc","category":null},
+{"keyword":"%E6%89%8B%E6%9C%BA","code":200,"category":"630","sort":"def_desc","price_min":null,"price_max":null},
+{"keyword":"abcdefgh","code":200,"sort":"def_desc","category":null,"price_min":null,"price_max":null}
+]

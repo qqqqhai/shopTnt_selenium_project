@@ -1,0 +1,117 @@
+{
+	"id": "864a1c06-9396-4184-9d63-fd6a2b471261",
+	"name": "My Collection",
+	"timestamp": "2026-05-09T11:50:33.761Z",
+	"collection_id": "54340799-27575198-f374-4e06-be05-f29a6430de9e",
+	"folder_id": "54340799-e79e3923-8f2b-4a68-b2df-8c95b1025e5c",
+	"environment_id": "54340799-321cee8a-c0f8-41be-8c54-0598ba8bdb95",
+	"totalPass": 14,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-05-09T11:50:30.762Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "566214f5-fb5a-41c1-bb23-678305941ceb",
+			"name": "add_production1",
+			"url": "https://shop-bbc-api.shoptnt.cn/buyer/goods/search?keyword&code&sort",
+			"time": 58,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 14,
+					"fail": 3
+				}
+			},
+			"times": [
+				203,
+				36,
+				45,
+				53,
+				55,
+				44,
+				46,
+				64,
+				84,
+				42,
+				48,
+				36,
+				58,
+				41,
+				42,
+				55,
+				58
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 17,
+	"totalTime": 1010,
+	"collection": {
+		"requests": [
+			{
+				"id": "566214f5-fb5a-41c1-bb23-678305941ceb",
+				"method": "GET"
+			}
+		]
+	}
+}
